@@ -9,6 +9,11 @@ public class sinifGecme {
 
     Scanner not = new Scanner(System.in);
 
+    System.out.println("Enter Your Grades:");
+    System.out.println("**************************");
+    System.out.println("Remember: If your grade is not between '0' to '100', your grade will not be averaged");
+    System.out.println("**************************");
+    
     System.out.print("Maths Grade: ");
     mat = not.nextDouble();
     if (mat >= 0 && mat <= 100){
